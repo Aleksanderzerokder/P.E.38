@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+P.E.38/secrets.toml
+.env

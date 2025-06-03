@@ -1,0 +1,13 @@
+[project]
+name = "pe38"
+version = "1.0.0"
+description = ""
+authors = ["Александр"]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "requests",
+    "beautifulsoup4",
+    "openai"
+]
+
