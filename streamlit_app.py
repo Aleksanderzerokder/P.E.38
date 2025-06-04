@@ -102,8 +102,8 @@ if st.button("Оценить по ссылкам"):
             cv = extract_resume_text(cv_html)
             user_prompt = f"# Вакансия\n{job_description}\n\n# Резюме\n{cv}"
             response = request_gpt(SYSTEM_PROMPT, user_prompt)
-            st.subheader("Результат (JSON):")
-            st.code(response, language="json")
+            #st.subheader("Результат (JSON):")
+            #st.code(response, language="json")
             try:
                 result = json.loads(response)
                 total_score = result.get("Total_score", "")
